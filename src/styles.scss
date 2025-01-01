@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 16px;
+  color: #fff;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 -5px 12px #fff;
+}
+
+.container.body {
+  padding: 36px 0;
+}
+.detail--card {
+  max-width: 680px;
+  margin: 28px auto;
+  background-color: #fff;
+  color: #161616;
+  padding: 16px 24px;
+  border-radius: 12px;
+}
+.input--form {
+  max-width: 680px;
+  margin: 0 auto;
+  gap: 14px;
+}
+.input--form .container {
+  max-width: fit-content;
+  margin: 0;
+}
+.input--form .container label {
+  margin-right: 8px;
+}
+.input--form .container input {
+  color: #585858;
+  min-height: 36px;
+  padding: 8px 11px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.input--form .container input::placeholder {
+  color: #585858;
+}
